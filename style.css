@@ -1,0 +1,211 @@
+body {
+	padding-top: 150px;
+	/* background: linear-gradient(154deg, #92e3b4, #7aaade); */
+	background image: url("http://www.chilmarkcommunitycenter.org/2015/wp-content/uploads/2015/03/DH2…rthas-vineyard-chamber-philbin-beach-path_h_jpg_rend_hgtvcom_1280_960.jpg");
+	background-size: 1350px 1200px;
+	/* -webkit-animation: AnimationName 9s ease infinite; */
+	-moz-animation: AnimationName 9s ease infinite;
+	/* animation: AnimationName 9s ease infinite; */
+	background-image: url("http://www.chilmarkcommunitycenter.org/2015/wp-content/uploads/2015/03/DH2015_marthas-vineyard-chamber-philbin-beach-path_h_jpg_rend_hgtvcom_1280_960.jpg");
+}
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes TextOpacity {
+	0%{opacity:0.95;}
+	50%{opacity:0.85;}
+	100%{opacity:0.95;}
+}
+@-webkit-keyframes TextOpacity {
+	0%{opacity:0.95;}
+	50%{opacity:0.85;}
+	100%{opacity:0.95;}
+}
+@-moz-keyframes TextOpacity {
+	0%{opacity:0.95;}
+	50%{opacity:0.85;}
+	100%{opacity:0.95;}
+}
+
+h1 {
+	color: white;
+	font-family: 'Megrim', cursive;
+	font-size: 4em;
+	-webkit-animation: TextOpacity 15s ease infinite;
+	-moz-animation: TextOpacity 15s ease infinite;
+	animation: TextOpacity 15s ease infinite;
+}
+
+#main {
+	margin-bottom: 0px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Megrim', cursive;
+	font-size: 2em;
+	margin-bottom: 0px;
+	text-shadow: 0px 0px 10px lightblue;
+}
+
+#wrapper {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+#wrapper p, #projects p {
+	font: 15px/30px 'Roboto Slab', sans-serif;
+	color: white;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*.stars {
+	position: absolute; left: -50%;
+	background: url('stars.png');
+	display: block;
+	width: 1500px;
+	height: 800px;
+	top:0;
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         40s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    z-index: 100;
+}*/
+
+#blurb a {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: inherit;
+	opacity: inherit;
+	-webkit-transition: color 0.1s;
+	transition: color 0.1s;
+}
+
+#blurb a:hover {
+	/*text-shadow: 0px 0px 5px lightblue;*/
+	color: #545E7D;
+	opacity: 0.9;
+	-webkit-transition: color 0.1s;
+	transition: color 0.1s;
+}
+
+#content {
+	width: 550px;
+	margin: auto;
+	text-align: justify;
+}
+
+.icons {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px white solid;
+	-webkit-animation: TextOpacity 15s ease infinite;
+	-moz-animation: TextOpacity 15s ease infinite;
+	animation: TextOpacity 15s ease infinite;
+}
+
+.proj0 {
+	width: 450px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.left {
+	float: left;
+}
+
+.proj1 {
+	width: 450px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.right {
+	float: right;
+}
+
+#projects {
+	width: 900px;
+	text-align: center;
+	margin: auto;
+}
+
+.proj-thumb {
+	width: 90%;
+	padding-bottom: 10px;
+}
+
+@keyframes blink
+{
+	0%   {  background:rgba(255, 255, 255, 100);  }
+	100% {  background:rgba(255, 255, 255, 0);  }
+}
+
+@-webkit-keyframes blink {
+	0%   {  background:rgba(255, 255, 255, 100);  }
+	100% {  background:rgba(255, 255, 255, 0);  }
+}
+@-moz-keyframes blink {
+	0%   {  background:rgba(255, 255, 255, 100);  }
+	100% {  background:rgba(255, 255, 255, 0);  }
+}
+
+.cursor {
+	background: #FFFFFF;
+	display:inline-block;
+	width:20px;
+	height:3px;
+	margin-bottom:-3px;
+	-webkit-animation-name: blink;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: blink;
+	-moz-animation-duration: 3s;
+	-moz-animation-iteration-count: infinite;
+}
+
+.availability {
+	font-size: 1.5em !important;
+	font-weight: 400 !important;
+}
+
+.nah {
+	color: #545E7D;
+	/*text-shadow: 0px 0px 8px white;*/
+}
+
+#footer {
+	padding-top: 150px;
+	margin: auto;
+	text-align: center;
+	font: 13px/30px 'Roboto Slab', sans-serif;
+	color: white;
+	font-weight: 200;
+}
+
+#listings {
+	padding-bottom: 20px;
+	width: 100%;
+}
